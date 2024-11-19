@@ -13,13 +13,11 @@ To clone the repository to your local machine, follow these steps:
 Open your terminal or command prompt.
 Navigate to the directory where you want to clone the repository.
 Run the following command:
-bash
-Copy code
+
 git clone [https://github.com/your-username/your-repository-name.git](https://github.com/pradeep85841/ApiTest.git)
 
 After cloning, navigate to the project directory:
-bash
-Copy code
+
 cd ApiTest
 2. Import the Project into Your IDE (Optional)
 
@@ -29,8 +27,7 @@ Open IntelliJ IDEA and select "Open".
 Navigate to the cloned project folder and select it.
 IntelliJ will automatically detect the Maven project and import it or right click on pom.xml file to select Add Maven option.
 
-bash
-Copy code
+
 mvn clean install
 This will download the necessary dependencies and compile the project.
 
@@ -38,7 +35,5 @@ This will download the necessary dependencies and compile the project.
 Using Maven:
 To run the tests with Maven, use the following command:
 
-bash
-Copy code
 mvn test
 This will execute the tests defined in the src/test/java/org/api/TestApi.java directory. Ensure that your JUnit framework is configured correctly.
