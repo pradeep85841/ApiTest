@@ -19,7 +19,9 @@ git clone [https://github.com/your-username/your-repository-name.git](https://gi
 After cloning, navigate to the project directory:
 
 cd ApiTest
-bash
+
+
+
 2. Import the Project into Your IDE (Optional)
 
 For IntelliJ IDEA:
@@ -29,15 +31,15 @@ Navigate to the cloned project folder and select it.
 IntelliJ will automatically detect the Maven project and import it or right click on pom.xml file to select Add Maven option.
 
 
-mvn clean install
-bash
+"mvn clean install"
+
 This will download the necessary dependencies and compile the project.
 
 4. Run the Tests
 Using Maven:
-bash
+
 To run the tests with Maven, use the following command:
 
-mvn test
-bash
+"mvn test"
+
 This will execute the tests defined in the src/test/java/org/api/TestApi.java directory. Ensure that your JUnit framework is configured correctly.
